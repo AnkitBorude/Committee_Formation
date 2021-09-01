@@ -10,14 +10,14 @@ int combination(int n,int r);
     printf("\n r=");
     scanf("%d",&dig2);
     if(dig1 <0 && dig2<0){
-        printf("plz enter positive value");
+        printf("plz enter positive value");//This File is included in the Other file therefore to avoid Main() Error. functions is comment outed
         return -1;
     }
     else{
         printf("\nthe value of the combination is= %d",combination(dig1,dig2));
         return 0;
     }}*/
-int fact(int i)
+int fact(int i)//Function to calculate factorial of a number
 {
     if(i<0)
     {
@@ -33,7 +33,7 @@ int fact(int i)
     {}
     return facto;}
 }
-int combination(int n,int r)
+int combination(int n,int r)//Function to calculate possible combinations among objects
 {
     if(n == r)
     {
